@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmArreglos.Designer.vb">
+      <DependentUpon>frmArreglos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmArreglos.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmEmpleados.Designer.vb">
       <DependentUpon>frmEmpleados.vb</DependentUpon>
     </Compile>
@@ -83,6 +89,12 @@
       <DependentUpon>frmProductos.vb</DependentUpon>
     </Compile>
     <Compile Include="frmProductos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.vb">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UI.vb">
@@ -96,6 +108,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -109,11 +122,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmArreglos.resx">
+      <DependentUpon>frmArreglos.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmEmpleados.resx">
       <DependentUpon>frmEmpleados.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmProductos.resx">
       <DependentUpon>frmProductos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI.resx">
       <DependentUpon>UI.vb</DependentUpon>
