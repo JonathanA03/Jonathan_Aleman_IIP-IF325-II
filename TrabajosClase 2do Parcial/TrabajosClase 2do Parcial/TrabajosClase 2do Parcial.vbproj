@@ -85,16 +85,34 @@
     <Compile Include="frmEmpleados.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmLibretaAhorro.Designer.vb">
+      <DependentUpon>frmLibretaAhorro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLibretaAhorro.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmProductos.Designer.vb">
       <DependentUpon>frmProductos.vb</DependentUpon>
     </Compile>
     <Compile Include="frmProductos.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmTarea1.Designer.vb">
+      <DependentUpon>frmTarea1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTarea1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Menu.Designer.vb">
       <DependentUpon>Menu.vb</DependentUpon>
     </Compile>
     <Compile Include="Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea2.Designer.vb">
+      <DependentUpon>Tarea2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea2.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UI.vb">
@@ -128,11 +146,20 @@
     <EmbeddedResource Include="frmEmpleados.resx">
       <DependentUpon>frmEmpleados.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmLibretaAhorro.resx">
+      <DependentUpon>frmLibretaAhorro.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmProductos.resx">
       <DependentUpon>frmProductos.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmTarea1.resx">
+      <DependentUpon>frmTarea1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea2.resx">
+      <DependentUpon>Tarea2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI.resx">
       <DependentUpon>UI.vb</DependentUpon>
